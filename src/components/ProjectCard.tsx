@@ -20,7 +20,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
       whileHover={{ scale: 1.03 }}
       className="bg-white rounded-lg shadow-lg p-6 hover:shadow-2xl transition"
     >
-      <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+      <h3 className="text-xl text-gray-700 font-semibold mb-2">{project.title}</h3>
       <p className="text-gray-700 mb-4">{project.description}</p>
       <div className="mb-4">
         {project.techStack.map((tech, index) => (
