@@ -23,9 +23,9 @@ const About: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          I'm a Frontend Engineer passionate about crafting visually striking and highly interactive
-          web experiences. I blend modern UI trends with functional design to build apps that feel
-          smooth, responsive, and just a bit exotic ✨.
+          I am an experienced Frontend Engineer with over 5 years of expertise in building dynamic, scalable, and user-centric web and mobile applications. My core strengths lie in React, TypeScript, JavaScript, and modern UI frameworks like Tailwind CSS and MUI. I have a proven track record of delivering high-impact fintech products, architecting robust component libraries, and integrating complex APIs to create seamless user experiences.<br /><br />
+          I thrive in fast-paced, high-growth environments, collaborating closely with cross-functional teams to drive innovation and deliver solutions that exceed business goals. My experience spans leading engineering teams, mentoring junior developers, and optimizing development workflows through CI/CD and best practices. I am passionate about performance, accessibility, and building products that make a real difference for users and organizations.<br /><br />
+          Let’s build something exceptional together.
         </motion.p>
 
         <motion.p

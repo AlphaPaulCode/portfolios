@@ -29,14 +29,18 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
           </span>
         ))}
       </div>
-      <a
-  href={project.link}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-exotic border border-exotic rounded px-4 py-2 hover:bg-exotic hover:text-white transition"
->
-  {project.linkType === 'code' ? 'View Code' : 'View Website'}
-</a>
+      {project.link && !project.link.toLowerCase().includes('private') ? (
+        <a
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-exotic border border-exotic rounded px-4 py-2 hover:bg-exotic hover:text-white transition"
+        >
+          {project.linkType === 'code' ? 'View Code' : 'View Website'}
+        </a>
+      ) : (
+        <span className="inline-block bg-gray-300 text-gray-700 rounded px-4 py-2">Private / Not Public</span>
+      )}
     </motion.div>
   );
 };

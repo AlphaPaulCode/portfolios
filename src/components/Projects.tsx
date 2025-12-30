@@ -35,14 +35,14 @@ const projects: Project[] = [
     link: 'https://managementinc.assuredbid.co.uk/', 
     linkType: 'website'
   },
-  {
-    id: 4,
-    title: 'AssureBid User Portal',
-    description: 'A secure and user-friendly web application for managing tenders, bids, and user accounts. Features include multi-factor authentication (MFA) using JWT and biometric verification, role-based access, and real-time tracking of submitted and pending tenders. Built with a modern UI, the portal allows users to view, search, filter, and sort available tenders across categories, with detailed information like budget, deadlines, and publish dates. Optimized for performance and security.',
-    techStack: ['React', 'Node.js', 'Express', 'JWT'],
-    link: 'https://portal.assuredbid.co.uk/login',
-    linkType: 'website',
-  },
+  // {
+  //   id: 4,
+  //   title: 'AssureBid User Portal',
+  //   description: 'A secure and user-friendly web application for managing tenders, bids, and user accounts. Features include multi-factor authentication (MFA) using JWT and biometric verification, role-based access, and real-time tracking of submitted and pending tenders. Built with a modern UI, the portal allows users to view, search, filter, and sort available tenders across categories, with detailed information like budget, deadlines, and publish dates. Optimized for performance and security.',
+  //   techStack: ['React', 'Node.js', 'Express', 'JWT'],
+  //   link: 'https://portal.assuredbid.co.uk/login',
+  //   linkType: 'website',
+  // },
   {
     id: 5,
     title: 'Payment Portal',
@@ -51,14 +51,14 @@ const projects: Project[] = [
     link: 'http://Portal.routepay.com',
     linkType: 'website',
   },
-  {
-    id: 6,
-    title: 'Support Portal',
-    description: 'A robust internal tool designed to streamline customer support and operations. Built with React, JavaScript, MUI, and Tailwind CSS, the portal features responsive dashboards, detailed transaction reports, mobile onboarding tracking, and wallet activity monitoring. Integrated with secure authentication mechanisms including JWT-based MFA and biometric verification, it empowers support teams to efficiently manage inquiries, resolve issues, and maintain full visibility into user activity and system logs.',
-    techStack: ['React', 'Node.js', 'Express', 'JWT'],
-    link: 'http://carehub.routepay.com',
-    linkType: 'website',
-  },
+  // {
+  //   id: 6,
+  //   title: 'Support Portal',
+  //   description: 'A robust internal tool designed to streamline customer support and operations. Built with React, JavaScript, MUI, and Tailwind CSS, the portal features responsive dashboards, detailed transaction reports, mobile onboarding tracking, and wallet activity monitoring. Integrated with secure authentication mechanisms including JWT-based MFA and biometric verification, it empowers support teams to efficiently manage inquiries, resolve issues, and maintain full visibility into user activity and system logs.',
+  //   techStack: ['React', 'Node.js', 'Express', 'JWT'],
+  //   link: 'http://carehub.routepay.com',
+  //   linkType: 'website',
+  // },
   {
     id: 7,
     title: 'Bioskar Website',
@@ -66,7 +66,31 @@ const projects: Project[] = [
     techStack: ['React', 'TypeScript', 'Framer Motion', 'Material UI'],
     link: 'https://github.com/Bioskar/Bioskar-web-frontend',
     linkType: 'code',
-  }  
+  },
+  {
+    id: 8,
+    title: 'Captain Track (Driver App)',
+    description: 'Driver-side mobile app for Captain Track. Built with React Native, Context API, and Expo/EAS; implements complex onboarding flows, in-app navigation, and real-time API integrations for drivers and fleet management.',
+    techStack: ['React Native', 'Context API', 'Expo', 'EAS'],
+    link: 'https://github.com/NUPAT-TECHNOLOGIES/captain-track-driver',
+    linkType: 'code',
+  },
+  {
+    id: 9,
+    title: 'Within Africa (Travel Booking)',
+    description: 'Travel platform featuring a hotel-booking module with location autocomplete, date-range picker, and guest/room selector; multi-city flight booking with dynamic segment management and passenger detail forms. Implemented responsive UI and performance optimizations.',
+    techStack: ['React', 'Tailwind CSS', 'JavaScript'],
+    link: 'https://github.com/justinlagos/withinafrica-playground',
+    linkType: 'code',
+  },
+  {
+    id: 10,
+    title: 'Union Bank Portals (Private)',
+    description: 'Multiple enterprise portals (Self Service Portal, Address Verification Portal — Admin & Vendor, Turbo website). Built with React, TypeScript, Tailwind CSS, and MUI; includes robust API integrations, role-based access control, and performant search experiences. Codebase is private and not publicly available.',
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'MUI', 'GraphQL', 'Axios'],
+    link: 'Private',
+    linkType: 'website',
+  }
 ];
 
 const Projects: React.FC = () => {
